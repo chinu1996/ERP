@@ -14,7 +14,7 @@
   </head>
   <body>
 
-  <h2>Results</h2>
+      <h1> Applicants details: </h1>
   <sql:query var="user" dataSource="jdbc/das">
       SELECT * FROM User
   </sql:query>
@@ -38,6 +38,6 @@
               </tr>
           </c:forEach>
       </table>
-          <a href="servlet1">click here</a>
+         
   </body>
 </html>

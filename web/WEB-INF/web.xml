@@ -5,6 +5,14 @@
             30
         </session-timeout>
     </session-config>
+    <servlet>
+        <servlet-name>ajaxname</servlet-name>
+        <servlet-class>.ajaxname</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ajaxname</servlet-name>
+        <url-pattern>/ajaxname</url-pattern>
+    </servlet-mapping>
     
   <servlet>
         <servlet-name>register</servlet-name>
@@ -14,9 +22,11 @@
         <servlet-name>register</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+    
+   
    
     <welcome-file-list>
-        <welcome-file>form.jsp</welcome-file>
+        <welcome-file>home.jsp</welcome-file>
     </welcome-file-list>
     
 </web-app>
